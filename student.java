@@ -5,10 +5,7 @@ class student{
 	String stud_name;
 	String stud_dept;
 
-	List<subject> subjects;
-
-
-        subjects = new ArrayList<subject>();	
+	List<subject> subjects = new ArrayList<subject>();	
 
 	public void addSubject(subject s){
            subjects.add(s);
